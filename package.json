@@ -1,0 +1,22 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "A tiny dependency-free command-line to-do list for Node.js",
+  "main": "todo.js",
+  "bin": {
+    "todo": "todo.js"
+  },
+  "scripts": {
+    "start": "node todo.js"
+  },
+  "keywords": ["todo", "cli", "nodejs", "tasks"],
+  "author": "Supreetgg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supreetgg/todo-cli.git"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
